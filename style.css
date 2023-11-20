@@ -1,0 +1,60 @@
+/* Definiert die Schriftart und den allgemeinen Stil für den gesamten Körper */
+body {
+    font-family: Arial, sans-serif; /* Verwendet Arial oder eine serifenlose Schrift, wenn Arial nicht verfügbar ist */
+    margin: 0; /* Entfernt den äußeren Abstand um den Körper */
+    padding: 0; /* Entfernt das Innenpolster des Körpers */
+    background-color: #f4f4f4; /* Hintergrundfarbe des Körpers */
+    color: #333; /* Standardtextfarbe */
+}
+
+/* Zentriert den Titel im Header */
+h1 {
+    text-align: center; /* Zentriert den Text horizontal */
+}
+
+/* Stil für Formulare */
+form {
+    margin: 20px auto; /* Setzt einen äußeren Abstand oben/unten und zentriert das Formular horizontal */
+    width: 50%; /* Breite des Formulars */
+    padding: 20px; /* Innenabstand des Formulars */
+    background-color: #fff; /* Hintergrundfarbe des Formulars */
+    border-radius: 8px; /* Runde Ecken des Formulars */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten um das Formular */
+}
+
+/* Stil für Textfelder und Schaltflächen innerhalb des Formulars */
+input[type="text"],
+input[type="submit"] {
+    width: 97%; /* Breite der Textfelder und Schaltflächen */
+    margin-bottom: 22px; /* Abstand unten für die Textfelder */
+    padding: 8px; /* Innenabstand der Textfelder und Schaltflächen */
+    border: 1px solid #ccc; /* Rand um Textfelder und Schaltflächen */
+    border-radius: 4px; /* Runde Ecken für Textfelder und Schaltflächen */
+}
+
+/* Stil für die Schaltfläche 'Submit' */
+input[type="submit"] {
+    background-color: #007bff; /* Hintergrundfarbe der Schaltfläche */
+    color: #fff; /* Textfarbe der Schaltfläche */
+    cursor: pointer; /* Mauszeiger zeigt an, dass die Schaltfläche anklickbar ist */
+    width: 97%; /* Breite der Schaltfläche */
+}
+
+/* Stil für Links */
+a {
+    display: block; /* Links als blockelement anzeigen */
+    margin: 20px auto; /* Setzt einen äußeren Abstand oben/unten und zentriert den Link horizontal */
+    width: 50%; /* Breite des Links */
+    text-align: center; /* Zentriert den Text horizontal im Link */
+    padding: 10px; /* Innenabstand des Links */
+    background-color: #007bff; /* Hintergrundfarbe des Links */
+    color: #fff; /* Textfarbe des Links */
+    text-decoration: none; /* Entfernt die Standardunterstreichung des Links */
+    border-radius: 4px; /* Runde Ecken für den Link */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten um den Link */
+}
+
+/* Stil für Links beim Hovern (Mausschweben) */
+a:hover {
+    background-color: #0056b3; /* Hintergrundfarbe ändert sich beim Mausschweben */
+}

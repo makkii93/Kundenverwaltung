@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundenverwaltung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kundenverwaltung</h1>
+
+    <!-- Formular zum Anlegen/Bearbeiten von Kunden -->
+    <form action="index.php" method="POST">
+        <input type="text" name="anrede" placeholder="Anrede">
+        <input type="text" name="kundenname" placeholder="Name">
+        <input type="text" name="email" placeholder="email">
+        <!-- Weitere Eingabefelder für Straße, Hausnummer, PLZ, Ort, Telefon, E-Mail -->
+        <input type="submit" name="submit" value="Kunde anlegen">
+    </form>
+
+    <!-- Formular zum Suchen von Kunden -->
+    <form action="index.php" method="GET">
+        <input type="text" name="search_query" placeholder="Suche nach Kunden">
+        <input type="submit" name="search" value="Suchen">
+    </form>
+
+    <!-- Link zum Drucken von Kundenlisten -->
+    <form action="index.php" method="post">
+        <input type="hidden" name="action" value="kundenliste_drucken">
+        <input type="submit" value="Kundenliste drucken">
+    </form>
+</body>
+</html>
